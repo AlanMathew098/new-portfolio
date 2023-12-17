@@ -5265,7 +5265,7 @@ body.loaded {
 
 .clients .brand .img {
   opacity: .8;
-  max-width: 100px;
+  /* max-width: 100px; */
   margin: auto;
   position: relative;
   -webkit-transition: all .4s;
