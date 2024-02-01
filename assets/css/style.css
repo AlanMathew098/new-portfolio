@@ -24,7 +24,7 @@
 
 body {
   color: #fff;
-  background-color: #1d1d1d;
+  background-color: #000000;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Sora', sans-serif;
@@ -73,7 +73,7 @@ body.home-arch main:after {
   left: 0;
   bottom: 0;
   width: 70px;
-  background: #1d1d1d;
+  background: #000000;
   z-index: 5;
 }
 
@@ -282,16 +282,16 @@ figure {
 }
 
 .main-bg {
-  background-color: #1d1d1d;
+  background-color: #000000;
 }
 
 .sub-bg {
-  background-color: #1a1a1a;
+  background-color: #000000;
 }
 
 .bg-gray1 {
   background: #EFF2F5;
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .bg-gray1 p {
@@ -299,7 +299,7 @@ figure {
 }
 
 .text-dark {
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .text-dark p {
@@ -1166,9 +1166,9 @@ img {
   height: 100%;
   left: 0;
   top: 0;
-  background: -webkit-linear-gradient(bottom, #1a1a1a, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #1a1a1a);
-  background: -o-linear-gradient(bottom, #1a1a1a, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #1a1a1a);
-  background: linear-gradient(to top, #1a1a1a, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #1a1a1a);
+  background: -webkit-linear-gradient(bottom, #000000, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #000000);
+  background: -o-linear-gradient(bottom, #000000, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #000000);
+  background: linear-gradient(to top, #000000, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), #000000);
   pointer-events: none;
 }
 
@@ -1263,7 +1263,7 @@ img {
 .dark-text .stroke,
 .text-dark .stroke {
   color: transparent;
-  -webkit-text-stroke: 1px #1d1d1d;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .o-hidden {
@@ -2789,7 +2789,7 @@ body.loaded {
   top: 0;
   width: 100vw;
   height: 110vh;
-  fill: #1a1a1a;
+  fill: #000000;
 }
 
 .loader-wrap .loader-wrap-heading .load-text {
@@ -2885,7 +2885,7 @@ body.loaded {
 }
 
 [data-overlay-dark]:before {
-  background: #1a1a1a;
+  background: #000000;
 }
 
 [data-overlay-light]:before {
@@ -3004,7 +3004,7 @@ body.loaded {
 }
 
 .navbar.nav-crev.nav-scroll {
-  background: #1d1d1d;
+  background: #000000;
   border-color: rgba(255, 255, 255, 0.05);
   padding: 0;
   position: fixed;
@@ -3022,12 +3022,12 @@ body.loaded {
 }
 
 .navbar.main-bg {
-  background: #1d1d1d;
+  background: #000000;
   border-color: rgba(255, 255, 255, 0.05);
 }
 
 .navbar.sub-bg {
-  background: #1a1a1a;
+  background: #000000;
   border-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -3042,7 +3042,7 @@ body.loaded {
 }
 
 .navbar.nav-scroll {
-  background: #1d1d1d;
+  background: #000000;
   border-color: rgba(255, 255, 255, 0.05);
   padding: 0;
   position: fixed;
@@ -3087,7 +3087,7 @@ body.loaded {
   visibility: hidden;
   border-radius: 0;
   color: #fff;
-  background: #1a1a1a;
+  background: #000000;
   border: 2px solid #393939;
   min-width: 255px;
   -webkit-transform: translateY(20px);
@@ -3129,7 +3129,7 @@ body.loaded {
   opacity: 0;
   visibility: hidden;
   border: 1px solid #393939;
-  background: #1a1a1a;
+  background: #000000;
   width: 240px;
   padding: 20px 0px;
   -webkit-transform: translateY(20px);
@@ -3448,7 +3448,7 @@ body.loaded {
   left: -100%;
   width: 100%;
   height: 100vh;
-  background: #1a1a1a;
+  background: #000000;
   padding: 120px 30px 30px;
   overflow: hidden;
   z-index: 9999;
@@ -3989,8 +3989,8 @@ body.loaded {
   bottom: 0;
   right: 0;
   width: 40%;
-  border-top: 7px solid #1d1d1d;
-  border-left: 7px solid #1d1d1d;
+  border-top: 7px solid #000000;
+  border-left: 7px solid #000000;
 }
 
 .about-intro .cont .feat {
@@ -4175,7 +4175,7 @@ body.loaded {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
+  background: #000000;
   z-index: -1;
 }
 
@@ -4384,7 +4384,7 @@ body.loaded {
 
 .intro-feat .cont .play-button .text {
   padding: 8px 20px 8px 60px;
-  border: 1px solid #1d1d1d;
+  border: 1px solid #000000;
   border-radius: 4px;
   font-size: 12px;
 }
@@ -4522,7 +4522,7 @@ body.loaded {
 -----------------------------------------------------------------*/
 .awards-box .awrd-items .item {
   padding: 80px 30px;
-  background: #1d1d1d;
+  background: #000000;
   border-radius: 150px;
   text-align: center;
 }
@@ -4803,7 +4803,7 @@ body.loaded {
   -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
   -ms-transform: translateX(-50%) translateY(-50%) scale(0);
   transform: translateX(-50%) translateY(-50%) scale(0);
-  color: #1d1d1d;
+  color: #000000;
   z-index: 3;
   opacity: 0;
   -webkit-transition: all .4s;
@@ -4823,7 +4823,7 @@ body.loaded {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
+  background: #000000;
   opacity: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -4881,7 +4881,7 @@ body.loaded {
 
 .blog-list-half .item .cont .tags.colorbg a:hover {
   background: #14cf93;
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .blog-list-half.crev .item {
@@ -5031,7 +5031,7 @@ body.loaded {
 
 .main-post .next-prv-post .thumb-post:after {
   content: '';
-  background: #1d1d1d;
+  background: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -5087,7 +5087,7 @@ body.loaded {
 
 .comments-post .item-box .replay-post a:hover {
   background: #14cf93;
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .comments-from form input,
@@ -5367,13 +5367,13 @@ body.loaded {
 .career-box .list-item .butn {
   padding: 4px 10px;
   border-radius: 20px;
-  background: #1a1a1a;
+  background: #000000;
   margin-right: 10px;
 }
 
 .career-box .list-item .butn:nth-of-type(2) {
   background: #55e6a5;
-  color: #1d1d1d;
+  color: #000000;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -5403,7 +5403,7 @@ body.loaded {
   right: 0;
   width: 400%;
   height: 100%;
-  background: #1a1a1a;
+  background: #000000;
 }
 
 .call-action-center .bg-pattern {
@@ -5543,7 +5543,7 @@ body.loaded {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background: #1d1d1d;
+  background: #000000;
   border-radius: 50%;
   z-index: -1;
 }
@@ -5654,7 +5654,7 @@ body.loaded {
 }
 
 .text-dark .dot-list li:before {
-  background: #1d1d1d;
+  background: #000000;
 }
 
 .skills .skill-item .skill-progress {
@@ -5684,7 +5684,7 @@ body.loaded {
 .skills .resume-exp .box-items {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background: #1d1d1d;
+  background: #000000;
 }
 
 .skills .resume-exp .box-items:after {
@@ -5716,7 +5716,7 @@ body.loaded {
   text-align: center;
   border-radius: 0 50px 50px 50px;
   background: #55e6a5;
-  color: #1d1d1d;
+  color: #000000;
   font-size: 17px;
   font-weight: 500;
 }
@@ -6038,7 +6038,7 @@ footer .bg-pattern {
   transform: rotate(-3deg);
   width: calc(100% + 60px);
   margin-left: -30px;
-  background: #1d1d1d;
+  background: #000000;
 }
 
 .marquee:before {
@@ -6049,9 +6049,9 @@ footer .bg-pattern {
   left: -30px;
   right: -30px;
   pointer-events: none;
-  background: -webkit-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
-  background: -o-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
-  background: linear-gradient(to left, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+  background: -webkit-linear-gradient(right, #000000, transparent 300px, transparent calc(100% - 300px), #000000);
+  background: -o-linear-gradient(right, #000000, transparent 300px, transparent calc(100% - 300px), #000000);
+  background: linear-gradient(to left, #000000, transparent 300px, transparent calc(100% - 300px), #000000);
   z-index: 3;
 }
 
@@ -6177,7 +6177,7 @@ footer .bg-pattern {
 }
 
 .back-image.states ul .sd-dark {
-  background: #1d1d1d;
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6350,7 +6350,7 @@ footer .bg-pattern {
   width: 100%;
   height: 100%;
   padding: 40px;
-  background: #1a1a1a;
+  background: #000000;
   position: relative;
   z-index: 4;
 }
@@ -6753,7 +6753,7 @@ footer .bg-pattern {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
+  background: #000000;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
@@ -6821,7 +6821,7 @@ footer .bg-pattern {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
+  background: #000000;
   opacity: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -6959,7 +6959,7 @@ footer .bg-pattern {
 
 .work-carsouel .work-crus .img .cont span,
 .work-carsouel .work-crus .img .cont h6 {
-  background: #1d1d1d;
+  background: #000000;
   font-weight: 500;
   padding: 5px 15px;
   -webkit-transform: translateY(10px);
@@ -7289,7 +7289,7 @@ body.inter-center {
 }
 
 .price-hr .item.text-dark .butn {
-  border-color: #1a1a1a;
+  border-color: #000000;
 }
 
 .price-hr .item.text-dark .butn:hover {
@@ -7328,7 +7328,7 @@ body.inter-center {
   text-align: center;
   border-radius: 50%;
   background: #55e6a5;
-  color: #1d1d1d;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -7375,7 +7375,7 @@ body.inter-center {
   right: -25%;
   width: 200%;
   height: 200%;
-  background: #1d1d1d;
+  background: #000000;
   z-index: -1;
 }
 
@@ -7424,7 +7424,7 @@ body.inter-center {
   right: 0;
   width: 50%;
   min-width: 315px;
-  color: #1d1d1d;
+  color: #000000;
   padding: 30px;
 }
 
@@ -7642,7 +7642,7 @@ body.inter-center {
   right: 0;
   width: calc(50% - 50px);
   height: 100%;
-  background: #1a1a1a;
+  background: #000000;
   z-index: -1;
 }
 
@@ -7906,7 +7906,7 @@ header.in-box {
 
 .crev-slider .swiper-controls {
   padding: 30px 30px 30px 80px;
-  background: #1d1d1d;
+  background: #000000;
   position: relative;
 }
 
@@ -8225,7 +8225,7 @@ header.in-box {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: #1d1d1d;
+  background: #000000;
   z-index: 9;
 }
 
@@ -8285,7 +8285,7 @@ header.in-box {
   -webkit-transform: translateX(-15px);
   -ms-transform: translateX(-15px);
   transform: translateX(-15px);
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .arch-slider .parallax-slider .caption h1 {
@@ -8345,7 +8345,7 @@ header.in-box {
 .arch-slider .setting .swiper-button-prev {
   font-size: 12px;
   color: #fff;
-  background: #1d1d1d;
+  background: #000000;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -8442,7 +8442,7 @@ header.in-box {
   position: absolute;
   left: 30px;
   bottom: 30px;
-  background: #1d1d1d;
+  background: #000000;
   border-radius: 50px;
   padding: 10px 40px 10px 10px;
 }
@@ -8506,7 +8506,7 @@ header.in-box {
 }
 
 .team-crev .swiper-slide .item .main-marq.team-position {
-  background: #1d1d1d;
+  background: #000000;
   bottom: 40px;
   left: 50%;
   -webkit-transform: translateX(-50%) rotateZ(-5deg);
@@ -8520,7 +8520,7 @@ header.in-box {
 }
 
 .team-crev .swiper-slide .item .main-marq.team-name h4 {
-  color: #1d1d1d !important;
+  color: #000000 !important;
 }
 
 .team-crev .swiper-slide .img {
@@ -8580,7 +8580,7 @@ header.in-box {
   line-height: 50px;
   text-align: center;
   background: #55e6a5;
-  color: #1d1d1d;
+  color: #000000;
   font-size: 30px;
   position: relative;
   z-index: 3;
@@ -8724,7 +8724,7 @@ header.in-box {
 
 .testimonials {
   position: relative;
-  color: #1d1d1d;
+  color: #000000;
   overflow: hidden;
 }
 
@@ -8770,7 +8770,7 @@ header.in-box {
 .testimonials .testim-items .item .cont {
   color: #fff;
   padding: 60px;
-  background: #1a1a1a;
+  background: #000000;
 }
 
 .testim-creative .arrows-carsouel {
@@ -9049,7 +9049,7 @@ header.in-box {
   right: -25%;
   width: 200%;
   height: 200%;
-  background: #1d1d1d;
+  background: #000000;
   z-index: -1;
 }
 
@@ -9387,7 +9387,7 @@ header.in-box {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #1d1d1d;
+  background-color: #000000;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -9403,7 +9403,7 @@ header.in-box {
 }
 
 .main-shop .shop-products .top-side .select-options li:hover, .main-shop .shop-products .top-side .select-options li.is-selected {
-  color: #1d1d1d;
+  color: #000000;
   background: #fff;
 }
 
@@ -9432,7 +9432,7 @@ header.in-box {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1d1d1d;
+  background: #000000;
   opacity: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -9450,7 +9450,7 @@ header.in-box {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   padding: 14px 35px;
-  background: #1d1d1d;
+  background: #000000;
   border-radius: 40px;
   font-size: 13px;
   text-transform: uppercase;
