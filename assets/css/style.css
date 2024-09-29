@@ -3519,8 +3519,8 @@ body.loaded {
 
 .about-myself{
   font-size: 50px;
-  margin-top: 120px;
-  margin-bottom: -20px;
+  margin-top: 140px;
+  margin-bottom: 0px;
   font-weight: 200;
   background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206),rgb(249, 249, 249));
     -webkit-background-clip: text;
@@ -5450,10 +5450,10 @@ body.loaded {
   z-index: 4;
 }
 
-/* .contact-crev {
+.contact-crev {
   position: relative;
   overflow: hidden;
-} */
+}
 
 .contact-crev.no-crev:after {
   display: none;
