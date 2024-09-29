@@ -1343,7 +1343,7 @@ img.left {
 }
 
 .radius-10 {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .radius-15 {
@@ -3042,7 +3042,7 @@ body.loaded {
 }
 
 .navbar.nav-scroll {
-  background: #000000;
+  background: #00000000;
   border-color: rgba(255, 255, 255, 0.05);
   padding: 0;
   position: fixed;
@@ -3065,7 +3065,7 @@ body.loaded {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   padding: 20px 10px 15px 10px;
   margin: 0 15px;
@@ -3497,6 +3497,40 @@ body.loaded {
   margin-top: 30px;
   height: 500px;
   overflow: auto;
+  word-spacing: 12px;
+}
+
+
+
+
+
+.visual{
+  font-size: 150px;
+  background: linear-gradient(rgb(200, 255, 0), rgb(21, 255, 0));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-weight: 200;
+  line-height: 140px;
+  font-family: "Silkscreen", sans-serif;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.about-myself{
+  font-size: 50px;
+  margin-top: 120px;
+  margin-bottom: -20px;
+  font-weight: 200;
+  background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206),rgb(249, 249, 249));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.alan{
+  width: 50px;
+   height: 50px;
 }
 
 .hamenu .menu-links::-webkit-scrollbar {
@@ -3965,7 +3999,7 @@ body.loaded {
 }
 
 .bg-img{
-  background-image: url(../imgs/black-waves-silk-ai-generated\ \(1\).jpg);
+  background-image: url();
 }
 
 /* About
@@ -5416,10 +5450,10 @@ body.loaded {
   z-index: 4;
 }
 
-.contact-crev {
+/* .contact-crev {
   position: relative;
   overflow: hidden;
-}
+} */
 
 .contact-crev.no-crev:after {
   display: none;
@@ -5915,6 +5949,8 @@ footer .bg-pattern {
   pointer-events: none;
   opacity: .5;
 }
+
+
 
 /* Pages Header
 -----------------------------------------------------------------*/
@@ -6899,7 +6935,7 @@ footer .bg-pattern {
 
 .portfolio.clasic .item .img {
   position: relative;
-  height: 400px;
+  height: 300px;
 }
 
 .portfolio.clasic .item .img img {
@@ -10086,6 +10122,27 @@ header.in-box {
     background-size: cover;
     background-position: center;
   }
+  .visual{
+    font-size: 80px;
+    color:#ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 90px;
+  
+  }
+
+  .about-myself {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: -120px;
+    font-weight: 200;
+    background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206), rgb(249, 249, 249));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
   .header-main-crev .caption {
     border: 0;
   }
@@ -10283,6 +10340,25 @@ header.in-box {
   
   .section-about{
     padding: 0px 0;
+  }
+  .visual{
+    font-size: 65px;
+    color:#ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height:75px;
+    margin-bottom: 20px;
+  
+  }
+  .about-myself{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: -120px;
+    font-weight: 200;
+    background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206),rgb(249, 249, 249));
+      -webkit-background-clip: text;
+              background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
   
 
