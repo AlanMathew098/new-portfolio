@@ -5487,6 +5487,8 @@ font-weight: 100;
 
 .brand-sec .brand-marq {
   padding: 180px 0 300px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .brand-sec .brand-marq .box {
