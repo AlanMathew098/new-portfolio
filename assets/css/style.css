@@ -11372,7 +11372,7 @@ header.in-box {
   .about-myself{
     font-size: 25px;
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     font-weight: 200;
     background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206),rgb(249, 249, 249));
       -webkit-background-clip: text;
