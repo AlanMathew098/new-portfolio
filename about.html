@@ -32,6 +32,16 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    
+ 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="home-freelancer main-bg">
@@ -80,77 +90,56 @@
 
         <!-- ==================== Start Navbar ==================== -->
 
-        <nav class="navbar navbar-expand-lg main-bg">
+        <div id="navi" class="topnav">
             <div class="container">
-
-                <!-- Logo -->
-                <a class="logo icon-img-100" href="./index.html">
+                <a class="logo icon-img-150" href="./index.html">
                     <img src="assets/imgs/alan.png" class="alan" alt="logo">
                 </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
-                </button>
-
-                <!-- navbar links -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="0"><span class="rolling-text">Home</span></a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="1"><span
-                                    class="rolling-text">Services</span></a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="2"><span
-                                    class="rolling-text">About</span></a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html" ><span
-                                    class="rolling-text">About</span></a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" href="./work.html" ><span
-                                    class="rolling-text">work</span></a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="4"><span
-                                    class="rolling-text">Social</span></a>
-                        </li> -->
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#0" role="button"
-                                aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Social</span></a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="https://www.behance.net/alanmathew1">Behance</a>
-                                <a class="dropdown-item" href="https://www.linkedin.com/in/alan-k-thomas-73682b235/">LinkedIn</a>
-                                <a class="dropdown-item" href="https://www.instagram.com/alan_mathew1998/">Instagram</a>
-                            </div>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="6"><span class="rolling-text">Blog</span></a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#0" data-scroll-nav="7"><span
-                                    class="rolling-text">Contact</span></a>
-                        </li>
-                    </ul>
+                <div class="menu-icon cursor-pointer">
+                    <span class="icon">
+                        <i></i>
+                        <i></i>
+                    </span>
+                    <!-- <span class="text"><span class="word">Menu</span></span> -->
                 </div>
-
-                <!-- <div class="search-form">
-                    <div class="form-group">
-                        <input type="text" name="search" placeholder="Search">
-                        <button><span class="pe-7s-search"></span></button>
-                    </div>
-                    <div class="search-icon">
-                        <span class="pe-7s-search open-search"></span>
-                        <span class="pe-7s-close close-search"></span>
-                    </div>
-                </div> -->
             </div>
-        </nav>
+        </div>
+    
+        <div class="hamenu">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="ham-content">
+                        <a href="./about.html">ABOUT</a>
+                        <a href="./works.html">WORKS</a>
+                        <a href="./branding.html">BRANDING</a>
+                        <a href="./contact-us.html">CONTACT</a>
+                    </div>
+                    <div class="hame-icons">
+                        <div><a href="https://www.linkedin.com/in/alan-k-thomas-73682b235/">LINKEDIN </a>
+                            <svg class="social-arrow"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg></div>  
+                        <div> 
+                            <a href="https://www.instagram.com/alan_mathew1998/?hl=en">INSTAGRAM</a>
+                            <svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                         <div> <a href="https://dribbble.com/AlanMark"> DRIBBLE </a><svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> </div> 
+                         <div>  <a href="https://www.behance.net/alanmathew1">BEHANCE</a>    <svg class="social-arrow"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> </div> 
+                         
+                        
+                      </div> 
+                  
+                </div>
+                
+            </div>
+        </div>
 
         <!-- ==================== End Navbar ==================== -->
 
@@ -364,25 +353,17 @@
 
 
                     <!-- ==================== Start Portfolio ==================== -->
-<section class="section-about"></section>
-                    <section class="portfolio clasic section-padding" data-scroll-index="3">
+            <section class="section-padding-new"></section>
+                    <section class="portfolio clasic " data-scroll-index="3">
                         <div class="container">
                             <div class="sec-lg-head mb-50">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <!-- <div class="position-re">
-                                          
-                                            
-                                            <img src="./assets/imgs/freelancer/works/abouts-new.jpg" alt="">
-                                        </div> -->
-                                        <div class="new-video">
-                                            <video width="100%"  autoplay loop muted  >
-                                                <source src="./assets/videos/18069235-uhd_3840_2160_24fps.mp4" type="video/mp4">
-                                                
-                                              </video>
-                                              
-                                        </div>
-                                        <div class="think">
+                                      
+                                        <div class="about-visual" >  MAKEING DIGITAL TRENDS DAILY </div>
+                                    
+                                        
+                                        <!-- <div class="think">
                                         <h6 class="fz-50 d-rotate wow ">
                                             <span class="rotate-text">Think Something New </span>
                                         </h6>
@@ -391,7 +372,7 @@
 
 From the inception of powerful brand identities that resonate with target audiences to the meticulous design of intuitive and visually immersive websites and applications, our portfolio reflects the versatility and adaptability embedded in our creative DNA. We understand that each client and project is unique, and we take pride in our ability to tailor our approach accordingly, ensuring that the end result not only meets but exceeds expectations.
                                         </p>
-                                    </div>
+                                    </div> -->
                                     </div>
                                     
                                 </div>
@@ -399,7 +380,149 @@ From the inception of powerful brand identities that resonate with target audien
                             
                         </div>
                     </section>
-                    <div class="clients section-about pb-100 position-re">
+
+                    <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="./assets/imgs/b1-new.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b8.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b7.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b1-new.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b8.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="./assets/imgs/b6.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
+                    <section>
+                        <div class="myself-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <!-- <img src="./assets/imgs/my-img.png" class="alan-img" alt=""> -->
+                                </div>
+                                <div class="col-lg-10"
+                                >
+                            <p class="about-us">I'm Alan, an experienced Indian <strong > UX/UI Designer</span> </strong> with nearly two years of experience, currently thriving at Moonley Interactive, a services-based company in Calicut, Kerala.My process encompasses everything from ideation and wireframing to prototyping and the delivery of the final product, involving collaborative efforts with cross-functional stakeholders. Let's collaborate and bring innovative designs to life.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+
+                    <section>
+                        <div class="my-career">
+                            <h2>Journey Through
+                                My Career</h2>
+                        </div>
+                    </section>
+
+                    <section class="portfolio port">
+                        <div class="container">
+                            <div class="work-row">
+                                <div class="item bord-thin-top wow fadeIn" data-wow-delay=".3s">
+                                    <div class="row">
+                                        <div class="col-lg-3 d-flex align-items-end">
+                                            <div class="title">
+                                                
+                                               <span><h5>UI Developer</h5></span>  
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="img md-mb30">
+                                                <img src="assets/imgs/portfolio/3/1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 d-flex align-items-end">
+                                            <div class="cont">
+                                                <h5>Primalcodes Technologies</h5>
+                                                <p>Jan 2023 - Jan 2024</p>
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="item bord-thin-top wow fadeIn" data-wow-delay=".3s">
+                                    <div class="row">
+                                        <div class="col-lg-3 d-flex align-items-end">
+                                            <div class="title">
+                                                
+                                                <h5>Graphics Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="img md-mb30">
+                                                <img src="assets/imgs/portfolio/3/2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 d-flex align-items-end">
+                                            <div class="cont ">
+                                                <h5>Yong Enterprises</h5>
+                                            <p> Feb 2024 - Jun 2024</p>
+                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                                <div class="item bord-thin-top bord-thin-bottom wow fadeIn" data-wow-delay=".3s">
+                                    <div class="row">
+                                        <div class="col-lg-3 d-flex align-items-end">
+                                            <div class="title">
+                                                
+                                                <h5>UI UX Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="img md-mb30">
+                                                <img src="assets/imgs/portfolio/3/3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 d-flex align-items-end">
+                                            <div class="cont">
+                                                <h5>Moonley Interactive</h5>
+                                               <p>Jun 2024 - Present</p>
+                                              
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <div class="clients section-about pb-100 position-re">
                         <div class="container">
                             <div class="row justify-content-center mb-80">
                                 <div class="col-lg-6 text-center">
@@ -465,14 +588,10 @@ From the inception of powerful brand identities that resonate with target audien
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <!-- ==================== End Portfolio ==================== -->
-
-
-
-                    <!-- ==================== Start skills ==================== -->
-
+                  
+<!-- 
                     <section class="skills-exp section-padding sub-bg" data-scroll-index="4">
                         <div class="container">
                             <div class="row">
@@ -542,7 +661,7 @@ From the inception of powerful brand identities that resonate with target audien
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> -->
 
                     <!-- ==================== End skills ==================== -->
 
@@ -764,96 +883,49 @@ From the inception of powerful brand identities that resonate with target audien
 
             <!-- ==================== Start Contact ==================== -->
 
-            <section class="contact-crev section-padding" data-scroll-index="7">
-                <div class="contact-container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <div class="sec-lg-head md-mb80">
-                                    <h6 class="dot-titl-non mb-10 wow fadeIn">Get In Touch</h6>
-                                    <h2 class="fz-50 d-rotate wow">
-                                        <span class="rotate-text">Let's make your brand brilliant!</span>
-                                    </h2>
-                                    <p class="fz-15 mt-10 wow fadeIn">If you would like to work with us or just want to get in
-                                        touch, we’d love to hear from you!</p>
-                                        <!-- <div class="phone fz-30 fw-600 mt-30 underline wow fadeIn">
-                                            <a href="#0">+1 840 841 25 69</a>
-                                        </div> -->
-                                    <ul class="rest social-text d-flex mt-60">
-                                        <li class="mr-30">
-                                            <a href="#0" class="hover-this"><span class="hover-anim">Behance</span></a>
-                                        </li>
-                                        <li class="mr-30">
-                                            <a href="#0" class="hover-this"><span class="hover-anim">Dribbble</span></a>
-                                        </li>
-                                        <li class="mr-30">
-                                            <a href="" class="hover-this"><span class="hover-anim">LinkedIn</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#0" class="hover-this"><span
-                                                    class="hover-anim">Instagram</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 offset-lg-1 valign">
-                                <div class="full-width">
-                                    <form id="contact-form" method="post" action="contact.php">
-
-                                        <div class="messages"></div>
-
-                                        <div class="controls row">
-
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-30">
-                                                    <input id="form_name" type="text" name="name" placeholder="Name"
-                                                        required="required">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-30">
-                                                    <input id="form_email" type="email" name="email" placeholder="Email"
-                                                        required="required">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <div class="form-group mb-30">
-                                                    <input id="form_subject" type="text" name="subject"
-                                                        placeholder="Subject">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <textarea id="form_message" name="message" placeholder="Message"
-                                                        rows="4" required="required"></textarea>
-                                                </div>
-                                                <div class="mt-30">
-                                                    <button type="submit" class="butn butn-full butn-bord radius-30">
-                                                        <span class="text">Let's Talk</span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+          
             <!-- ==================== End Contact ==================== -->
 
 
             </main>
 
+            <section>
+                <div class="new-contact">
+                    <div class="container">
+                        <div class="text-new-contact">
+                            LET'S WORK TOGETHER
+                          </div>
 
+                          <div class="hey-button1">
+                            <button type="submit"  class="butn butn-full1  butn-bords">
+                                <span class="text"> <a href="./contact-us.html">CONTACT NOW</a></span> 
+                            </button>
+                        </div>
 
-            <!-- ==================== Start Footer ==================== -->
+                          <div class="social-icons">
+                            <div><a href="https://www.linkedin.com/in/alan-k-thomas-73682b235/">LINKEDIN </a>
+                                <svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></div>  
+                            <div> 
+                                <a href="https://www.instagram.com/alan_mathew1998/?hl=en">INSTAGRAM</a>
+                                <svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </div>
+                             <div> <a href="https://dribbble.com/AlanMark"> DRIBBLE </a><svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> </div> 
+                             <div>  <a href="https://www.behance.net/alanmathew1">BEHANCE</a>    <svg class="social-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> </div> 
+                             
+                            
+                          </div> 
 
+                </div>
+            </section>
+          
             <footer class="sub-bg">
                 <div class="sub-footer pt-40 pb-40 bord-thin-top">
                     <div class="container">
@@ -877,6 +949,12 @@ From the inception of powerful brand identities that resonate with target audien
                     </div>
                 </div>
             </footer>
+
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+         
 
             <!-- ==================== End Footer ==================== -->
 
