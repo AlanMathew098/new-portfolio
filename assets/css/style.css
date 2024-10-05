@@ -11337,6 +11337,11 @@ header.in-box {
   font-size: 45px;
   font-weight: 100;
 }
+
+.brand-sec {
+  padding-top: 10px;
+}
+
   .about-visual {
     font-size: 55px;
     color: #ffffff;
@@ -11438,7 +11443,7 @@ header.in-box {
   font-style: normal;
 }
 .video-king {
-  border-radius: 40px;
+  border-radius: 20px;
 }
 .ham-content {
   text-align: center;
