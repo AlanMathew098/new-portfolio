@@ -3568,6 +3568,35 @@ body.loaded {
 }
 
 
+.butn.butn-full2 {
+  padding: 15px 25px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 70px;
+}
+
+.butn.butn-bord2 {
+  border-color: #000000;
+  background: transparent;
+  color: #000000;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.butn.butn-bord2:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.butn.butn-bord2:hover span {
+  color: #ffffff;
+}
+
+
 .content-cards {
   width: 70%;
   position: relative;
