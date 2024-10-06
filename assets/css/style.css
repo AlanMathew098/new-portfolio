@@ -3549,22 +3549,22 @@ body.loaded {
   border-radius: 70px;
 }
 
-.butn.butn-bords {
-  border-color: #000000;
+.butn.butn-bord1 {
+  border-color: #ffffff;
   background: transparent;
-  color: #000000;
+  color: #ffffff;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
 }
 
-.butn.butn-bords:hover {
-  background: #000000;
-  color: #ffffff;
+.butn.butn-bord1:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
-.butn.butn-bords:hover span {
-  color: #ffffff;
+.butn.butn-bord1:hover span {
+  color: #000000;
 }
 
 
