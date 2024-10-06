@@ -11416,11 +11416,15 @@ header.in-box {
       -webkit-text-fill-color: transparent;
   }
 
+  .infos{
+    margin-bottom: 40px;
+  }
+
 
   .detail-note {
     font-size: 20px;
     margin-bottom: 70px;
-    margin-top: 0px;
+    margin-top: -50px;
     font-weight: 200;
     background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206), rgb(249, 249, 249));
     -webkit-background-clip: text;
