@@ -3782,11 +3782,21 @@ body.loaded {
   margin-bottom: 90px;
 }
 
+.detail-image{
+  width: 100%;
+  height: 60%;
+}
+
 .my-career{
   padding-bottom: 80px;
   padding-top: 140px;
 }
 
+.visit-now{
+  padding-top: -150px;
+  color:#17A803;
+  padding-bottom: 30px;
+}
 
 .my-career h2 {
 text-align: center;
@@ -3840,7 +3850,7 @@ font-weight: 100;
 
 .detail-note{
    font-size: 23px;
-  margin-bottom: 140px;
+  margin-bottom: 90px;
   margin-top: 0px;
   font-weight: 200;
   background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206),rgb(249, 249, 249));
@@ -11423,7 +11433,7 @@ header.in-box {
 
   .detail-note {
     font-size: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-top: -50px;
     font-weight: 200;
     background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206), rgb(249, 249, 249));
