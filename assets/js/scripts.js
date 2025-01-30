@@ -1110,7 +1110,7 @@ $(function () {
 
         if ($(this).hasClass('testim-swiper3')) {
             var conf = {
-
+ 
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
